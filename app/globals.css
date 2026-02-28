@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #135bec;
+  --color-background-light: #f6f6f8;
+  --color-background-dark: #101622;
+  --color-surface-dark: #1a2234;
+  --color-border-dark: #2d3a54;
+  --font-display: "Manrope", sans-serif;
+}
+
+body {
+  font-family: var(--font-display);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #232f48;
+    border-radius: 10px;
+}
+
+.tech-pattern {
+    background-color: #101622;
+    background-image: radial-gradient(rgba(19, 91, 236, 0.1) 1px, transparent 0);
+    background-size: 40px 40px;
+}
+.glass-card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.whatsapp-bg {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuCLn3kDv-UTteZEAAOY9CdUvPLqVfmn5rexnln5nnS_aWUAFSDSdLJ2Lmbs-0UicAHv43ARkw1wVzfJlzLNdhvu83WBmj8SfBl0rPaG3DdI-2h-vTfHB4jxtewpZH0cvyc1t0G_RSvvT9xQeNYO-NG5_7IOqd8mGgHVlJlrPkSR9YXYp_fjkMjDRZUEkifuO3V0n7063Eyp23o4xk6f-Xam9J5Wuw8jXgcYm2oyKVUJhJfhpwQ-VpvHW45_0ewsqjOLGhRxZTQ1quzw);
+}
